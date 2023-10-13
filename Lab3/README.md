@@ -22,7 +22,7 @@ padframe pads should contain a basic ESD protection.
 
 
 ## pWell nActive
-First we need to desingn the pWell nActive diode
+First we need to design the pWell nActive diode
 
 ### pWell nActive Schematic
 Begin by creating a schematic for the pWell nActive diode as shown.
@@ -35,7 +35,7 @@ Next create the layout. Make sure the pWell and nActive are touching but not ove
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab3/images/pWell_lay.png)
 
 ## pActive nWell
-Next we need to desingn the pActive nWell diode.
+Next we need to design the pActive nWell diode.
 
 ### pActive nWell Schematic
 Like before desing the schematic.
@@ -43,7 +43,7 @@ Like before desing the schematic.
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab3/images/nWell_sch.png)
 
 ### pActive nWell Layout
-Just like the pWell nActive, desing the layout.
+Just like the pWell nActive, design the layout.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab3/images/nWell_lay.png)
 
@@ -57,7 +57,7 @@ Add the diodes to the padcell in order to have ESD protection from the outside w
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab3/images/padESD_lay.png)
 
 ### Padframe with buses
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab2/images/DAC_sch.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab3/images/padESD_vdd_gnd.png)
 
 ## Padframe with NMOS
 The NMOS only has 4 inputs/outputs so only 4 pads are needed. The drawn sizes of the pads are 400 x 400.
@@ -68,7 +68,7 @@ Drag the NMOS and Padframe schematics and name the pins acrodingly.
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab3/images/final_icESD_sch.png)
 
 ### Padframe with NMOS Layout
-Drag in the NMOS and PAdframe layouts and wire them like the schematic.
+Drag in the NMOS and Padframe layouts and wire them like the schematic.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab3/images/final_icESD_lay.png)
 
