@@ -1,4 +1,4 @@
-# Lab 1: 5-Bit DAC with PadFrame
+# Lab 1: NMOS with ESD Protection Padframe
 
 ## Table of Contents
 - [Lab Description](#lab-description)
