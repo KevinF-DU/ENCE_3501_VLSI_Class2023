@@ -49,13 +49,13 @@ Again simulate the inverter using the same spice code. For this inverter the swi
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_2_sim.png)
 
 ### Inverter 2 Layout
-For the layout create 4 PMOS and NMOS transitor using the sizes of inverter 1. The transitors can share sources and drains.
+For the layout create 4 PMOS and NMOS transitors using the sizes of inverter 1. The transitors can share sources and drains.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_2_lay.png)
 
 ## Simulation with Load
 To simulate both inverters create a new schematic and bring in the icons for both inverters. Add exports for vin and vouts.
-Both inverters will drive a capacitor of 100fF, 1pF, and 10pF.
+Both inverters will drive a capacitor of 100fF, 1pF, and 10pF. As the capacitance increases the switcing delay increases. When driving 10pF the switching point is never reached.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/load_test_sch.png)
 
