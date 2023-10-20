@@ -1,4 +1,4 @@
-# Lab 3: Inverters
+# Lab 4: Inverters
 
 ## Table of Contents
 - [Lab Description](#lab-description)
