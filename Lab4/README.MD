@@ -23,7 +23,7 @@ Design two inverters with size 12u/6u (PMOS) 6u/6u (NMOS), and
 For the first inverter schenmmatic use a PMOS transistor of 12u/6u, and a NMOS transistor of 6u/6u.
 Make sure to add the spice model in order to simulate the inverter. Add an icon and exports for input/outputs.
 
-[!image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_1_sch.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_1_sch.png)
 
 
 ### Inverter 1 Layout
