@@ -32,7 +32,7 @@ Using the spice command, simulate the inverter. The switching point is lower tha
 
 
 ### Inverter 1 Layout
-For the layout create a PMOS and NMOS transitor like in previous labs, add vdd and ground rail, and add contact for the input/output.
+For the layout create a PMOS and NMOS transitor like in previous labs, add vdd and ground rail, and add contacts for the input/output.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_1_lay.png)
 
@@ -44,7 +44,7 @@ Follow the same process of inverter one but change the size to 48u/6u (PMOS) 24u
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_2_sch.png)
 
 ### Inverter 2 Simulation
-Again simulate the inverter using the same spice code.
+Again simulate the inverter using the same spice code. For this inverter the switching point is at vdd/2.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_2_sim.png)
 
