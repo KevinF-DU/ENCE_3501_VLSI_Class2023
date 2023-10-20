@@ -1,4 +1,4 @@
-# Lab 1: 5-Bit DAC with PadFrame
+# Lab 2: DAC Padframe
 
 ## Table of Contents
 - [Lab Description](#lab-description)
