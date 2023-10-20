@@ -14,8 +14,8 @@
 
 
 ## Lab Description
-Design a die that allows connecting an NMOS transistor to the outside world. The
-padframe pads should contain a basic ESD protection.
+Design two inverters with size 12u/6u (PMOS) 6u/6u (NMOS), and 
+48u/6u (PMOS) 24u/6u (NMOS).
 
 
 ## Inverter 1
