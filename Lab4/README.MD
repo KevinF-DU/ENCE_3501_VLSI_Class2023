@@ -14,7 +14,7 @@
 
 
 ## Lab Description
-Design two inverters with size 12u/6u (PMOS) 6u/6u (NMOS), and 
+Design two inverters with sizes 12u/6u (PMOS) 6u/6u (NMOS), and 
 48u/6u (PMOS) 24u/6u (NMOS).
 
 ## Inverter 1
