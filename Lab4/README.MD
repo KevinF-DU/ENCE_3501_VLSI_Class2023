@@ -44,7 +44,7 @@ Follow the same process of inverter one but change the size to 48u/6u (PMOS) 24u
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_2_sch.png)
 
 ### Inverter 2 Simulation
-Again simulate the inverter using the same spice code. For this inverter the switching point is at vdd/2.
+Again simulate the inverter using the same spice code. For this inverter the switching point is lower than inverter 1 since it is bigger in size.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab4/images/inverter_2_sim.png)
 
