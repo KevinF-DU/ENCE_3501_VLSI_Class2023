@@ -46,6 +46,23 @@ Simulate the gate to ensure that it works properly. Apply all four inputs (00,01
 Next create a NOT gate. Again use 6u/2u MOSFETS.
 
 ### NOT Schematic
-The schematic consists of only 1 NMOS and one PMOS.
+The schematic consists of only one NMOS and one PMOS.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sch.png)
+
+### NOT Layout
+The layout will look like the one below.
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_lay.png)
+
+### NOT Simulation
+Again simulate the gate using both inputs (0,1).
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sch_sim.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sim.png)
+
+##XOR2
+
+
+
+
