@@ -61,8 +61,13 @@ Again simulate the gate using both inputs (0,1).
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sch_sim.png)
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sim.png)
 
-##XOR2
+## XOR2
+The last gate needed is the 2-input XOR gate. It uses two of the previous NOT gate created.
 
+### XOR2 Schematic
+Begin by creating the schematic. 
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/XOR2_sch.png)
 
 
 
