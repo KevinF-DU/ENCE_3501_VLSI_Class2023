@@ -84,4 +84,22 @@ Simulate all four inputs (00,01,10,11).
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/XOR2_sch_sim.png)
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/XOR2_sim.png)
 
+## Full Adder
+Now utilize the gates to create a full adder.
+
+### Full Adder Schematic
+The schematic uses two XOR and three NAND gates.
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/full_adder_sch.png)
+
+### Full Adder Layout
+Drag in the layouts of the gates to create the full adder. Connect all VCC's and GND's together.
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/full_adder_lay.png)
+
+### Full Adder Simulation
+Simulate all 8 inputs(000,001,010,011,100,101,110,111).
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/full_adder_sch_sim.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/full_adder_sim.png)
 
