@@ -103,3 +103,5 @@ Simulate all 8 inputs(000,001,010,011,100,101,110,111).
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/full_adder_sch_sim.png)
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/full_adder_sim.png)
 
+
+There is a glitch when A goes form HIGH to LOW causing Cout and S to be wrong. This is due to the time delay it takes the logic change to affect the entire circuit.
