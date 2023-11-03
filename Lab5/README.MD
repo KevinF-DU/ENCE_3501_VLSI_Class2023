@@ -24,7 +24,7 @@
 Design a full adder using 6u/2u MOSFETS that implements NAND2, NOT, and XOR2 gates.
 
 ## NAND2
-First begin with the 2-inpout NAND gate. All gate will use 6u/2u MOSFTES.
+First begin with the 2-input NAND gate. All gates will use 6u/2u MOSFTES.
 
 ### NAND2 Schematic
 Create the schematic and an icon that resembles a 2-input NAND.
@@ -41,3 +41,11 @@ Simulate the gate to ensure that it works properly. Apply all four inputs (00,01
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NADN2_sch_sim.png)
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NADN2_sim.png)
+
+## NOT
+Next create a NOT gate. Again use 6u/2u MOSFETS.
+
+### NOT Schematic
+The schematic consists of only 1 NMOS and one PMOS.
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sch.png)
