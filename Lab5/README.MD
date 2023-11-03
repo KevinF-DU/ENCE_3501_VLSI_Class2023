@@ -69,5 +69,19 @@ Begin by creating the schematic.
 
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/XOR2_sch.png)
 
+### XOR2 Layout
+For the layout first create a stick diagram in order to properly arrange the inputs.
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/stick_diagram.jpg)
+
+This will make creating the layout easier.
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/XOR2_lay.png)
+
+## XOR2 Simulation
+Simulate all four inputs (00,01,10,11).
+
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/XOR2_sch_sim.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/XOR2_sim.png)
 
 
