@@ -1,4 +1,4 @@
-# Lab 5: Full Adder
+# Lab 6: DC-to-DC Charge Pump
 
 ## Table of Contents
 - [Lab Description](#lab-description)
