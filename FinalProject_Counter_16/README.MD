@@ -78,6 +78,6 @@ To show that the enable pin works simulate with enable going to low halfway on t
 ![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/enb_sim.png)
 
 To show that the reset works simulate witht he reset being low hlfway on the count.
-https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/reset_sim.png
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/reset_sim.png)
 
 
