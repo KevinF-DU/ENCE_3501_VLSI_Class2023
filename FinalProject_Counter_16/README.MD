@@ -1,10 +1,10 @@
-# Lab 6: DC-to-DC Charge Pump
+# Lab 6: Counter 16
 
 ## Table of Contents
 - [Lab Description](#lab-description)
-- [NAND2](#nand2)
-  - [NAND2 Schematic](#nand2-schematic)
-  - [NAND2 Simulation](#nand2-simulation)
+- [AND](#and)
+  - [AND Schematic](#and-schematic)
+  - [AND Simulation](#and-simulation)
 - [NOT](#not)
   - [NOT Schematic](#not-schematic)
   - [NOT Simulation](#not-simulation)
