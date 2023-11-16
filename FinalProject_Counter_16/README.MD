@@ -17,10 +17,10 @@
 
 
 ## Lab Description
-The goal is to create 4 bit counter using D flip-flops and using standard cells is electric VLSI. All transistors are using the 1u spice modle.
+The goal is to create a 4 bit counter using D flip-flops and using standard cells is electric VLSI. All transistors are using the 1u spice modle.
 
 ## AND
-First we will need a and gate in order to have an enable pin. When the enable and clock are high the counter will increase.
+First we will need an AND gate in order to have an enable pin. When the enable and clock are high the counter will increase.
 
 ### AND Schematic
 Create the schematic and an icon that resembles a 2-input AND.
