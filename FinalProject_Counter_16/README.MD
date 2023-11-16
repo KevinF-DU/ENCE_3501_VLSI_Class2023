@@ -8,110 +8,76 @@
 - [NOT](#not)
   - [NOT Schematic](#not-schematic)
   - [NOT Simulation](#not-simulation)
-- [Ring Oscillator](#ring-oscillator)
-  - [Ring Oscillator Schematic](#ring-oscillator-schematic)
-  - [Ring Oscillator Simulation](#ring-oscillator-simulation)
-- [3 Stage Charge Pump](#3-stage-charge-pump)
-  - [3 Stage Charge Pump Schematic](#3-stage-charge-pump-schematic)
-  - [3 Stage Charge Pump Simulation](3-stage-charge-pump-simulation)
-- [Regulator](#regulator)
-  - [Regulator Schematic](#regulator-schematic)
-  - [Regulator Simulation](#regulator-simulation)
--[DC-to-DC Charge Pump](#dc-to-dc-charge-pump)
-  - [DC-to-DC Charge Pump Schematic](#dc-to-dc-charge-pump-schematic)
-  - [DC-to-DC Charge Pump Simulation](#dc-to-dc-charge-pump-simulation)
+- [D Flip Flop](#d-flip-flop)
+  - [D Flip Flop Schematic](#d-flip-flop-schematic)
+  - [D Flip Flop Simulation](#d-flip-flop-simulation)
+- [Counter](#counter)
+  - [Counter Schematic](#counter-schematic)
+  - [Counter Simulation](counter-simulation)
 
 
 ## Lab Description
-The goal of this lab is to build a DC-to-DC Charge Pump regulator. The charge
-pump should output 2V and drive a 2 MΩ resistor.
+The goal is to creata 4 bit counter using D flip-flops and using standard cells is electric VLSI. All transistors are using the 1u spice modle.
 
-## NAND2
-First begin with the 2-input NAND gate. All gates will use 6u/2u MOSFTES.
+## AND
+First we will need a and gate in order to have an enable pin. When the enable and clock are high the counter will increase.
 
-### NAND2 Schematic
-Create the schematic and an icon that resembles a 2-input NAND.
+### AND Schematic
+Create the schematic and an icon that resembles a 2-input AND.
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NADN2_sch.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/and_sch.png)
 
-### NAND2 Layout
-Next create the layout, as shown below.
-
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NADN2_lay.png)
-
-### NAND2 Simulation
+### AND Simulation
 Simulate the gate to ensure that it works properly. Apply all four inputs (00,01,10,11).
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NADN2_sch_sim.png)
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NADN2_sim.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/and_sim.png)
+
 
 ## NOT
-Next create a NOT gate. Again use 6u/2u MOSFETS.
+A not gate is also needed to get the inverse of the flip flop output.
 
 ### NOT Schematic
 The schematic consists of only one NMOS and one PMOS.
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sch.png)
-
-### NOT Layout
-The layout will look like the one below.
-
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_lay.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/inv_sch.png)
 
 ### NOT Simulation
 Again simulate the gate using both inputs (0,1).
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sch_sim.png)
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab5/images/NOT_sim.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/inv_sim.png)
 
-## Ring Oscillator
-The ring oscillator will utilize the NAND and NOT gates.
 
-### Ring Oscillator Schematic
-Connect an even number of NOT gates in series with a NAND gate. One input of the NAND is the enable, the other is the feedback from the NOT gates.
+## D Flip Flop
+Four D flip-flops are needed. One for each bit.
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab6/Images/osc_sch.png)
+### D Flip Flop Schematic
+The schematic is taken form the mudlib07 library.
 
-## Ring Oscillator Simulation
-Simulate the oscillator to ensure the signals are oscillating and out of phase of eachother.
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/ff_sch.png)
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab6/Images/osc_sim.png)
+### D Flip Flop Simulation
+To make the flip-flop a rising edge the ph1 pin is the clock, and the ph2 is the inverse of the clock.
 
-## 3 Stage Charge Pump
-The charge pump will allow our voltage to increase from 1V to 2V. 
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/ff_sim.png)
 
-### Stage Charge Pump Schematic
-Utilize the 2 oscillating signals as inputs to charge the capacitors.
+### Counter
+Now put everything together to create the counter.
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab6/Images/chr_sch.png)
+## Counter Schematic
+The AND gate is used so the counter only counts when the enable is high, the NOTs are used to get inverse of the flip-flops. Ensure that the ph1 and ph2 pins ares set accordingly.
 
-### Stage Charge Pump Simulation
-Simulate the charge pump to ensure that the output reaches 2V.
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/counter_sch.png)
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab6/Images/chr_sim.png)
+## Counter Simulation
+No simulate the counter to see if it counts up form 0 to 15 (4bits). I set the initial voltages of all bits to zero.
 
-## Regulator
-The regulator will control the voltage so it is not higher than 2V. 
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/counter_sim.png)
 
-### Regulator Schematic
-The regulator will utilize two of the NOT gates.    
+To show that the enable pin works simulate with enable going to low halfway on the count.
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab6/Images/reg_sch.png)
+![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/enb_sim.png)
 
-### Regulator Simulation
-Simulate the regulator to ensure the enable output is high when the voltage is below 2V. My Regulator cuts off at 1V.
+To show that the reset works simulate witht he reset being low hlfway on the count.
+https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/FinalProject_Counter_16/Images/reset_sim.png
 
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab6/Images/reg_sim.png)
 
-## DC to DC Charge Pump
-Now the DC-to-DC Charge Pump will utilize all of the above.
-
-### DC to DC Charge Pump Schematic
-Combine the Ring Oscillator, Charge Pump, and Regulator to creat the DC-to-DC Charge Pump.
-
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab6/Images/DC_sch.png)
-
-### DC to DC Charge Pump Simulation
-Simulate to see if it is working properly. My regulator is not working properly so the DC-toDC- Charge Pump is not working.
-
-![image](https://github.com/KevinF-DU/ENCE_3501_VLSI_Class2023/blob/main/Lab6/Images/DC_sim.png)
